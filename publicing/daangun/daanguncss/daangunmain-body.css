@@ -1,0 +1,35 @@
+#home-main-section-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 239px;
+  width: 1024px;
+  padding: 60px 0;
+}
+
+#home-main-section-body .home-main-img-body {
+  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-1-39ac203e8922f615aa3843337871cb654b81269e872494128bf08236157c5f6a.png);
+  background-size: 532px 684px;
+  width: 532px;
+  height: 684px;
+}
+#home-main-section-body .home-main-img-body2 {
+  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-3-0c8b631ac2294ac5a3b3e7a3a5580c3e68a3303ad2aded1e84aa57a2e1442786.png);
+  background-size: 532px 684px;
+  width: 532px;
+  height: 684px;
+}
+
+#home-main-section-body .home-main-desc-body h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.home-main-desc-body a input[type="button"] {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}

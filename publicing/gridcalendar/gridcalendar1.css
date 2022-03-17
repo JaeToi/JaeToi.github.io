@@ -1,0 +1,21 @@
+body {
+  width: 600px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#calendar {
+  border-collapse: collapse;
+}
+
+#calendar ul {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+  grid-template-rows: 20px;
+}
+
+#calendar li {
+  border: 1px solid;
+}

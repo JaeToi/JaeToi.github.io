@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+}
+
+.Googleheader a {
+  text-decoration: none;
+}
+
+.page-wrapper {
+  display: grid;
+}
+
+.Googleheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Googlefooter {
+  border-collapse: collapse;
+  background-color: rgb(231, 228, 228);
+  margin-top: 20px;
+  height: 100px;
+  grid-template-columns: 100px 100px;
+}
+
+.headerleft a {
+  padding: 10px;
+}
+
+.headerright a {
+  padding: 10px;
+}
+
+.lastfooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerleft {
+  display: flex;
+}
+.footerright {
+  display: flex;
+}
+
+.footerleft p {
+  padding-right: 15px;
+}
+.footerright p {
+  padding-right: 15px;
+}

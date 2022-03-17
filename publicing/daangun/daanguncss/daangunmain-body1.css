@@ -1,0 +1,60 @@
+#home-main-section-body1 {
+  padding: 60px 0;
+  background-color: #e6f3e6;
+}
+.home-main-section-dsec-body1 {
+  display: flex;
+  margin: 0 180px;
+  align-items: center;
+  justify-content: center;
+}
+.home-main-section-body1-left h1 {
+  font-size: 40px;
+}
+.home-story-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.home-story-list .ul-li-image {
+  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-1-9226479b836cdc960291ffda91ace46c90a632f6cc868aa8983b3624e662a924.svg)
+    no-repeat;
+  width: 56px;
+  height: 56px;
+}
+.home-story-list .ul-li-image1 {
+  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-2-208bb88cad31e335b40bc8ac5b7684dcf8a36d77ac50770a497a9c967a3bfc4f.svg)
+    no-repeat;
+  width: 56px;
+  height: 56px;
+}
+.home-story-list .ul-li-image2 {
+  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/icon-story-3-0a14d64c6101a7271655747d8401b9f71506578f8a4c0640608074e977bbc7c0.svg)
+    no-repeat;
+  width: 56px;
+  height: 56px;
+}
+
+.home-story-list .li-list {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.home-story-list span {
+  margin: 16px 40px 16px 0;
+}
+
+.home-story-list .li-list-small {
+  font-size: 13px;
+}
+.home-main-section-img-body1 {
+  background: url(https://d1unjqcospf8gs.cloudfront.net/assets/home/main/3x/image-2-f286322ab98acedf914a05bf77e84c67dcb897c8ccb543e66f6afea9d366d06d.png)
+    no-repeat;
+  background-size: 546px 740px;
+  width: 546px;
+  height: 740px;
+}
