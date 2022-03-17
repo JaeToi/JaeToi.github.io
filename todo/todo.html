@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./todo.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="todo-page">
+      <div class="todo-wrapper">
+        <div class="todo-body">
+          <header id="header">
+            <form id="form">
+              <h1>TODO STDUY LIST</h1>
+              <input
+                id="input-text"
+                type="text"
+                placeholder="공부 할 목록을 입력해주세요."
+              />
+              <button>추가</button>
+              <button type="button" id="btn-delete-all">전체 삭제</button>
+            </form>
+          </header>
+          <main id="main">
+            <ul class="todo-list">
+              <li class="list">
+                <label
+                  ><input type="checkbox" id="input-check" /><span
+                    class="todo-text"
+                  ></span
+                  >HTML</label
+                >
+                <button class="btn-delete">Delete</button>
+                <button class="btn-edit">수정하기</button>
+              </li>
+              <li class="list">
+                <label
+                  ><input type="checkbox" class="input-check" /><span
+                    class="todo-text"
+                    >css</span
+                  ></label
+                >
+                <button class="btn-delete">Delete</button>
+                <button class="btn-edit">수정하기</button>
+              </li>
+            </ul>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script src="./todo.js"></script>
+  </body>
+</html>
