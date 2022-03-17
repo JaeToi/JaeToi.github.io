@@ -1,0 +1,80 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+.todo-page {
+  text-align: center;
+}
+.todo-page #main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-page .todo-wrapper {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+  margin: 80px auto;
+  border: 1px solid rgba(0, 0, 0, 0.27);
+  border-style: dashed;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #fdeff4;
+}
+
+.todo-body {
+  padding: 20px;
+}
+
+#main ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header h1 {
+  font-size: 100px;
+  text-align: center;
+  background-color: #f7f7f7;
+  text-decoration-line: underline;
+}
+#header input[type="text"] {
+  width: 400px;
+  height: 40px;
+  border: none;
+  margin-left: 180px;
+}
+
+.list.done .todo-text {
+  text-decoration: line-through;
+}
+
+#header h2 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0 0 10px 0;
+}
+.list label {
+  width: 400px;
+  font-size: 30px;
+}
+#main .list label input[type="checkbox"] {
+  margin-right: 20px;
+  zoom: 1.7;
+}
+.todo-wrapper button {
+  zoom: 1.3;
+}

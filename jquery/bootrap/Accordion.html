@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./Accordion.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <ul class="accordion">
+      <li class="accordion-item">
+        <div class="accordion-header headerone">
+          Accordion Item #1
+          <button class="btn-arrow"></button>
+        </div>
+        </div>
+        <div class="accordion-body bodyone">
+          <b>This is the first item's accordion body</b>. It is shown by
+          default, until the collapse plugin adds the appropriate classes that
+          we use to style each element. These classes control the overall
+          appearance, as well as the showing and hiding via CSS transitions. You
+          can modify any of this with custom CSS or overriding our default
+          variables. It's also worth noting that just about any HTML can go
+          within the <small class="smallred">.accordion-body</small>, though the
+          transition does limit overflow.
+        </div>
+      </li>
+      <li class="accordion-item">
+        <div class="accordion-header headertwo">
+          Accordion Item #2
+          <button class="btn-arrow"></button>
+        </div>
+        <div class="accordion-body bodytwo">
+          <b>This is the first item's accordion body</b>. It is hidden by
+          default, until the collapse plugin adds the appropriate classes that
+          we use to style each element. These classes control the overall
+          appearance, as well as the showing and hiding via CSS transitions. You
+          can modify any of this with custom CSS or overriding our default
+          variables. It's also worth noting that just about any HTML can go
+          within the <small class="smallred">.accordion-body</small>, though the
+          transition does limit overflow.
+        </div>
+      </li>
+      <li class="accordion-item">
+        <div class="accordion-header headerthree">
+          Accordion Item #3
+          <button class="btn-arrow"></button>
+        </div>
+        <div class="accordion-body bodythree">
+          <b>This is the first item's accordion body</b>. It is hidden by
+          default, until the collapse plugin adds the appropriate classes that
+          we use to style each element. These classes control the overall
+          appearance, as well as the showing and hiding via CSS transitions. You
+          can modify any of this with custom CSS or overriding our default
+          variables. It's also worth noting that just about any HTML can go
+          within the <small class="smallred">.accordion-body</small>, though the
+          transition does limit overflow.
+        </div>
+      </li>
+    </ul>
+    <script>
+      $(".accordion-header").click(function () {
+        const $item = $(this).closest(".accordion-item");
+        // 기준(accordion-header(this))으로부터 조상요소인 (accordion-item)를 반환한다 
+        const isActive = $item.hasClass("active");
+        //$("타겟").hasClass("클래스명"); item의 클래스(active)가 있는지확인
+        
+        // 1. 모든 item을 닫는다
+        // 2. 원래 닫혀있던 item만 active 클래스를 붙인다
+        $(".accordion-item").removeClass("active");
+        // parent - 바로위에있는 부모 선택가능 (바로위에 코드가 바뀌면 모든게바뀜)
+        if (!isActive) {
+          $item.addClass("active"); 
+        }
+      });
+        // .addClass() 메서드는 선택한 요소의 클래스를 추가합니다.
+        // .removeClass() 메서드는 선택한 요소의 클래스를 삭제합니다.
+        // .toggleClass() 메서드는 선택한 요소의 클래스를 추가/삭제합니다.
+        // .hasClass() 메서드는 선택한 요소의 클래스가 있는지 확인합니다.
+    </script>
+  </body>
+</html>
