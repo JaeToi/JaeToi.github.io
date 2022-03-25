@@ -23,7 +23,9 @@ const VideoInSidebaritem = () => {
   );
 };
 
-const VideoSidebarAll = styled.div``;
+const VideoSidebarAll = styled.div`
+  width: 402px;
+`;
 const VideoInSidebar = styled.div`
   display: flex;
   margin-left: 15px;
